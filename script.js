@@ -1,4 +1,4 @@
-fetch('https://andikap98.github.io/') // Menyesuaikan endpoint API jika diperlukan
+fetch('https://andikap98.github.io/api/data') // Menyesuaikan endpoint API jika diperlukan
   .then(response => response.json())
   .then(data => {
     // Manipulasi dan tampilkan data di halaman GitHub Pages
